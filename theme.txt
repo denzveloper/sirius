@@ -1,0 +1,111 @@
+# Sirius GRUB2 theme.
+# Redesign By Dendy Octavian AKA DENZVELOPER <dandyoctavian [at] gmail [dot] com> <dandyoctavian [at] hotmail [dot] com>
+# Of course this is not me who makes without any project of the creator
+# Designed by Malcer <malcer [at] gmx [dot] com> <malcer.deviantart.com> for Chakra Project <http://www.chakraos.org/>
+#
+# Some rights reserved. This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License. | 2014
+#
+# http://creativecommons.org/licenses/by-sa/3.0/
+
+
+# General
+
+title-text: ""
+title-font: "DejaVu Sans Regular 12"
+title-color: "#f2f2f2"
+message-font: "DejaVu Sans Regular 14"
+message-color: "#1a1d20"
+message-bg-color: "#1a1d20"
+desktop-image: "background.png"
+desktop-color: "#1a1d20"
+terminal-font: "DejaVu Mono 14"
+
+# text powered--By Dendy Octavian
+
++ hbox {
+		top = 2%
+		left = 36%
+		+ label {text = "Powered By:" font = "DejaVu Mono 14" color = "#f2f2f2" align = "left"}
+}
+
+# Drive icon
+
++ image {
+		    id = "__driveos__"
+		    left = 42%
+		    width = 0%
+		    top = 5%
+		    height = 0%
+		    file = "driveos.png"
+}
+
+
+# DZ Txt
+
++ hbox {
+		top = 22%
+		left = 42%
+		+ label {text = "DENZVELOPER :: Dendy Octavian Z. Developer" font = "DejaVu Sans Regular 10" color = "#00acff" align = "left"}
+}
+
+# OS list
+
++ boot_menu {
+		left = 15%
+		width = 70%
+		top = 32%
+		height = 42%
+		item_font = "DejaVu Sans Regular 12"
+		selected_item_font = "DejaVu Sans Bold 14"
+		item_color = "#647280"
+		selected_item_color = "#f2f2f2"
+		item_height = 48
+		item_padding = 15
+		item_spacing = 5
+		icon_width = 48
+		icon_height = 48
+		item_icon_space = 20
+		selected_item_pixmap_style= "select_bkg_*.png"
+		scrollbar = true
+		scrollbar_width = 24
+}
+
+# Time progress Bar
+
++ progress_bar {
+		id = "__timeout__"
+		left = 40%
+		width = 170
+		top = 73%
+		height = 23
+		show_text = false
+		font = "DejaVu Sans Regular 10"
+		text_color = "#f2f2f2"
+		text = " "
+		bar_style = "progress_bar_*.png"
+		highlight_style = "progress_highlight_*.png"
+}
+
+# GRUB Options
+
++ hbox {
+		top = 97%-35
+		left = 26%
+		+ label {text = "Tips GRUB Loader:  " font = "DejaVu Mono 14" color = "#FF9933" align = "left"}
+		+ label {text = "Boot Selection press " font = "DejaVu Sans 12" color = "#f2f2f2" align = "left"}
+		+ label {text = "ENTER   " font = "DejaVu Sans 12" color = "#33cc33" align = "left"}
+		+ label {text = "Choosing boot press " font = "DejaVu Sans 12" color = "#f2f2f2" align = "left"}
+		+ label {text = "UP/DOWN   " font = "DejaVu Sans 12" color = "#33cc33" align = "left"}
+}
++ hbox {
+		top = 100%-35
+		left = 26%-10
+		+ label {text = "Have a Trouble and Problem in linux? Choose Advanced Option for troubleshooting." font = "DejaVu Sans 12" color = "#FF5533" align = "left"}
+}
+
++ hbox {
+		top = 100%-35
+		left = 90%
+		+ label {text = "@ copyleft 2016" font = "DejaVu Sans Regular 10" color = "#00acff" align = "left"}
+}
+ 
